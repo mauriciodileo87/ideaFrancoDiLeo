@@ -125,10 +125,49 @@ body {
  footer img {
     height: 3rem;
 }
+/*inicio inicio*/
+h1 {
+   
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.contenedor h1 {
+    color: wheat;
+    font-size: 50px;
+}
+.contenedor video {
+    width:auto;
+}
+.contain-im {
+    padding: 1em;
+    float: left;
+
+  
+}
+.im{
+margin: 1em;
+padding: 1em;
+float: left;
 
 
+}
+.contain-im h1{
+    color: wheat;
+    font-size: 50px;
+    
+}
 
- 
+ /*fin inicio*/
 footer * {
     display: inline;
     
