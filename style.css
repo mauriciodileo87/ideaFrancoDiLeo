@@ -10,6 +10,10 @@ body {
     background-color: #5f9ea0;
 }
 
+header img {
+    height: 90px;
+}
+
 
 
  .container {
@@ -115,21 +119,45 @@ float: left;
 }
 
  /*fin inicio*/
+ 
+
 footer * {
+   
     display: inline;
     
 }
 
 footer li {
     margin: 20px;
+    padding: 30px 25px;
+   
 }
 
 footer li a {
     color: black;
     text-decoration: none;
+   
 }
 footer p {
     background-color:transparent;
 }
 
 /*product*/
+.gallery {
+    padding: 80px 0px;
+}
+.gallery img {
+    max-width: 100%;
+}
+.gallery img {
+    background: #fff;
+    padding: 15px;
+    width: 100%;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0,0.3);
+    cursor: pointer;
+}
+
+#gallery-popup .modal-img {
+    width: 100%;
+
+}
