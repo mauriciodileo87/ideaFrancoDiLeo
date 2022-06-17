@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+@import "components/header.scss";
+@import "components/footer";
+@import "base/extends";
+@import "base/listas";
+@import "base/mixin";
+@import "components/inicio";
+@import "components/productos";
+@import "components/productos";
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    background-color: nth($colores,1 );
+}
+

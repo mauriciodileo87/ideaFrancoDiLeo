@@ -1,0 +1,21 @@
+footer {
+    display: inline;
+    border: 1px solid black;
+
+    img {
+        height: 50px;
+    }
+    li {
+        margin: 2px;
+        padding: 5px 25px;
+    }
+    a {
+        color: black;
+        text-decoration: none;
+    }
+    p {
+        background-color:transparent;
+        padding: 5px 10px;
+       
+    }
+}

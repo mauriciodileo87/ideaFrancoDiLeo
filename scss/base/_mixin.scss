@@ -1,0 +1,13 @@
+@mixin box-dos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin box-tres {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}

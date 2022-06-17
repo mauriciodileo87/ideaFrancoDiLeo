@@ -1,0 +1,6 @@
+.im-ini {
+    margin: 20px 35px;
+    h1 {
+        @include box-dos;
+    }
+}

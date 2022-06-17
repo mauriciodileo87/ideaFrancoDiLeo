@@ -1,0 +1,10 @@
+header {
+    background-color: transparent;
+    @extend %box;
+    nav{
+        img{
+            height: 90px;
+        }
+    }
+    
+}
