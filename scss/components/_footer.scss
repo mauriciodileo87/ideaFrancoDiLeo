@@ -1,9 +1,13 @@
 footer {
     display: inline;
     border: 1px solid black;
+    list-style: none;
 
     img {
         height: 50px;
+    }
+    ul {
+        list-style: none;
     }
     li {
         margin: 2px;

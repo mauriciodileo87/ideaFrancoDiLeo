@@ -9,9 +9,13 @@ header nav img {
 footer {
   display: inline;
   border: 1px solid black;
+  list-style: none;
 }
 footer img {
   height: 50px;
+}
+footer ul {
+  list-style: none;
 }
 footer li {
   margin: 2px;
@@ -73,6 +77,16 @@ header {
 }
 .gallery #gallery-popup .modal-img {
   width: 100%;
+}
+
+.donde-content h1 {
+  color: whitesmoke;
+}
+
+.ubi-maps {
+  padding: 30px 40px;
+  display: flex;
+  justify-content: center;
 }
 
 * {
